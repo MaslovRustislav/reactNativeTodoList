@@ -2,11 +2,20 @@
   "name": "reactNative",
   "displayName": "reactNative",
   "expo": {
+    "sdkVersion": "41.0.0",
     "name": "reactNative",
     "slug": "reactNative",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "com.lingonsaft.myapp",
+      "versionCode": 1,
+      "permissions": []
+    },
+    "ios": {
+      "bundleIdentifier": "com.lingonsaft.myapp"
+    }
   }
 }
